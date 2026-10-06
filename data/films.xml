@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<library>
+    <films>
+        <film>
+            <id>1</id>
+            <title>Интерстеллар</title>
+            <year>2014</year>
+            <duration>169</duration>
+            <description>Группа исследователей отправляется в космос для поиска нового дома для человечества.</description>
+            <genre>
+                <id>1</id>
+                <name>Фантастика</name>
+                <description>Фильмы о космосе, будущем и научных открытиях.</description>
+            </genre>
+            <director>
+                <id>1</id>
+                <name>Кристофер Нолан</name>
+                <birth_year>1970</birth_year>
+                <country>
+                    <id>2</id>
+                    <name>Великобритания</name>
+                </country>
+            </director>
+            <actors>
+                <actor>
+                    <id>1</id>
+                    <name>Мэттью Макконахи</name>
+                    <birth_year>1969</birth_year>
+                    <country>
+                        <id>1</id>
+                        <name>США</name>
+                    </country>
+                </actor>
+            </actors>
+            <studio>
+                <id>1</id>
+                <name>Warner Bros.</name>
+                <country>
+                    <id>1</id>
+                    <name>США</name>
+                </country>
+            </studio>
+            <countries>
+                <country>
+                    <id>1</id>
+                    <name>США</name>
+                </country>
+                <country>
+                    <id>2</id>
+                    <name>Великобритания</name>
+                </country>
+            </countries>
+        </film>
+        <film>
+            <id>2</id>
+            <title>Тёмный рыцарь</title>
+            <year>2008</year>
+            <duration>152</duration>
+            <description>Бэтмен противостоит Джокеру.</description>
+            <genre>
+                <id>2</id>
+                <name>Боевик</name>
+                <description>Фильмы с большим количеством динамичных сцен.</description>
+            </genre>
+            <director>
+                <id>1</id>
+                <name>Кристофер Нолан</name>
+                <birth_year>1970</birth_year>
+                <country>
+                    <id>2</id>
+                    <name>Великобритания</name>
+                </country>
+            </director>
+            <actors>
+                <actor>
+                    <id>2</id>
+                    <name>Кристиан Бэйл</name>
+                    <birth_year>1974</birth_year>
+                    <country>
+                        <id>2</id>
+                        <name>Великобритания</name>
+                    </country>
+                </actor>
+            </actors>
+            <studio>
+                <id>1</id>
+                <name>Warner Bros.</name>
+                <country>
+                    <id>1</id>
+                    <name>США</name>
+                </country>
+            </studio>
+            <countries>
+                <country>
+                    <id>1</id>
+                    <name>США</name>
+                </country>
+                <country>
+                    <id>2</id>
+                    <name>Великобритания</name>
+                </country>
+            </countries>
+        </film>
+    </films>
+    <users>
+        <user>
+            <id>1</id>
+            <name>Иван</name>
+            <email>ivan@mail.ru</email>
+        </user>
+        <user>
+            <id>2</id>
+            <name>Анна</name>
+            <email>anna@mail.ru</email>
+        </user>
+    </users>
+    <ratings>
+        <rating>
+            <value>10</value>
+            <date>2026-10-06</date>
+            <film_id>1</film_id>
+            <user_id>1</user_id>
+        </rating>
+        <rating>
+            <value>9</value>
+            <date>2026-10-06</date>
+            <film_id>2</film_id>
+            <user_id>2</user_id>
+        </rating>
+    </ratings>
+    <reviews>
+        <review>
+            <id>1</id>
+            <text>Отличный фильм! Очень интересный сюжет.</text>
+            <date>2026-10-06</date>
+            <film_id>1</film_id>
+            <user_id>1</user_id>
+        </review>
+        <review>
+            <id>2</id>
+            <text>Один из лучших фильмов о Бэтмене.</text>
+            <date>2026-10-06</date>
+            <film_id>2</film_id>
+            <user_id>2</user_id>
+        </review>
+    </reviews>
+    <collections>
+        <collection>
+            <id>1</id>
+            <name>Любимые фильмы</name>
+            <description>Фильмы, которые хочется пересматривать.</description>
+            <films>
+                <film_id>1</film_id>
+                <film_id>2</film_id>
+            </films>
+        </collection>
+    </collections>
+    <watchlists>
+        <watchlist>
+            <id>1</id>
+            <name>Посмотреть вечером</name>
+            <films>
+                <film_id>1</film_id>
+            </films>
+        </watchlist>
+        <watchlist>
+            <id>2</id>
+            <name>Фильмы на выходные</name>
+            <films>
+                <film_id>2</film_id>
+            </films>
+        </watchlist>
+    </watchlists>
+</library>
