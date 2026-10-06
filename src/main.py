@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from exceptions import (
     DuplicateFilmError,
     FilmNotFoundError,
@@ -20,8 +22,9 @@ from models import (
 )
 from xml_handler import load_from_xml, save_to_xml
 
-JSON_FILE = "data/films.json"
-XML_FILE = "data/films.xml"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+JSON_FILE = DATA_DIR / "films.json"
+XML_FILE = DATA_DIR / "films.xml"
 
 
 def create_demo_library() -> Library:
